@@ -1,0 +1,20 @@
+{
+  "name": "reasonml-hello",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "bs-jest": "^0.2.0",
+    "bs-platform": "1.9.3"
+  },
+  "jest": {
+    "testMatch": [ "**/*_test.js" ]
+  }
+}
